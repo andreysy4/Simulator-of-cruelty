@@ -1,0 +1,50 @@
+<MainMenu><x=640><y=400>
+Новая игра
+	<NewGame><x=640><y=480>
+		Одиночная игра
+			<Singleplayer><x=640><y=480>
+				Раскраска
+			</Singleplayer>
+		Сетевая игра
+	</NewGame>
+Загрузить игру
+Рекорды
+	<Records><x=640><y=100><align=center>
+	Раскраска
+	</Records>
+Опции
+	<Options><y=400>
+	Игра
+		<GameOptions><type=Optional><y=480>
+		ЩИ
+		</GameOptions>
+	Управление
+		<ControlsOptions><type=Optional><x=640><align=right><y=160>
+		Вверх
+		Вниз
+		Вправо
+		Влево
+		Огонь
+		Альтернативный огонь
+		Перезарядка
+		Покупка
+		Смена оружия
+		</ControlsOptions>
+	Графика
+	Звук
+		<SoundOptions><type=Optional><y=400>
+		Громкость
+		Беззвучное меню
+		Хлюпанье щей
+		</SoundOptions>
+	</Options>
+Инфо
+	<Info><y=400>
+	Как играть?
+	Персонажи
+	Оружие
+	Бонусы
+	Авторы
+	</Info>
+Выход
+</MainMenu>
