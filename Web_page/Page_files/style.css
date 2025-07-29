@@ -1,0 +1,210 @@
+body{
+	color: #2D2D2D;
+}
+
+.wrapper {
+	margin:0 auto;
+	max-width: 1170px;
+}
+
+.wp-caption-text {
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+}
+
+img{
+	max-width : 100%;
+}
+
+pre{
+	background: #eee;
+	max-width: 100%;
+	overflow: auto;
+	padding: 1.6em;
+	font-family : monospace, monospace;
+}
+
+blockquote::before {
+	color: #b7b1b1;
+	content: "\f10d";
+	font-family: "fontawesome";
+	font-size: 16px;
+	font-style: initial;
+	left: 0;
+	position: absolute;
+}
+blockquote {
+	font-size: 1.2em;
+    line-height: 1.6em;
+    background: rgba(237, 237, 237, 0.2);
+    padding-left: 23px;
+    padding: 5px 3%;
+    position: relative;
+    border-right: 1px solid #ccc;
+    margin: 2% 5px;;
+}
+
+h1, h1 a,
+h3, h3 a {
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+  line-height: 1.6;
+	margin: 0 0 16px;
+	color: #000000;
+}
+
+h3{
+	font-size: 18px;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+@media (max-width: 1229px) {
+	*{ box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box;}
+	a[href^=tel] { /* css */
+		color:inherit;
+		text-decoration: inherit;
+		font-size:inherit;
+		font-style:inherit;
+		font-weight:inherit;
+	}
+	.wrapper{
+		width: 980px;
+	}
+}
+
+@media screen and (max-width:992px){
+	.wrapper{
+		padding:0 5px;
+		width: 740px ;
+	}
+}
+
+.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 1.5em;
+}
+.alignright {
+	display: inline;
+	float: right;
+	margin-left: 1.5em;
+}
+.aligncenter {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media screen and (max-width:767px){
+	.wrapper{
+		width: 98%;
+	}
+}
+
+@font-face {
+  font-family: 'CinzelRegular';
+  src: url('./fonts/Cinzel-Regular.woff2') format('woff2'), url('./fonts/Cinzel-Regular.woff') format('woff'), url('./fonts/Cinzel-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'RalewayRegular';
+  src: url('./fonts/Raleway-Regular.woff2') format('woff2'), url('./fonts/Raleway-Regular.woff') format('woff'), url('./fonts/Raleway-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'RalewayLight';
+  src: url('./fonts/Raleway-Light.woff2') format('woff2'), url('./fonts/Raleway-Light.woff') format('woff'), url('./fonts/Raleway-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'RobotoCondensedLight';
+  src: url('./fonts/RobotoCondensed-Light.woff2') format('woff2'), url('./fonts/RobotoCondensed-Light.woff') format('woff'), url('./fonts/RobotoCondensed-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'CaviarDreamsRegular';
+  src: url('./fonts/CaviarDreams.woff2') format('woff2'), url('./fonts/CaviarDreams.woff') format('woff'), url('./fonts/CaviarDreams.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'CaviarDreamsBold';
+  src: url('./fonts/CaviarDreams-Bold.woff2') format('woff2'), url('./fonts/CaviarDreams-Bold.woff') format('woff'), url('./fonts/CaviarDreams-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.single-post .entry-content {
+  font-family: 'RalewayRegular';
+  line-height: 1.7em;
+  letter-spacing: 0.03em;
+}
+.single-post .entry-content p {
+  text-indent: 60px;
+  text-align: justify;
+}
+@media screen and (max-width: 480px) {
+  .single-post .entry-content p {
+    text-indent: 0;
+  }
+}
+.single-post .entry-content a {
+  color: #2362f6;
+  font-weight: bold;
+  padding: 6px 4px;
+  -webkit-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.single-post .entry-content a:hover {
+  background-color: #2362f6;
+  color: #fff;
+}
+.single-post .entry-content h1 {
+  text-indent: 60px;
+  font-size: 26px;
+  font-family: 'CaviarDreamsBold';
+  font-weight: 100;
+  margin-top: 60px;
+}
+.single-post .entry-content h3 {
+  text-indent: 60px;
+  font-size: 20px;
+  font-family: 'CaviarDreamsRegular';
+  font-weight: 700;
+}
+@media screen and (max-width: 767px) {
+  .single-post .entry-content h1,
+  .single-post .entry-content h3 {
+    text-align: center;
+    text-indent: 0;
+  }
+  .single-post .entry-content figure.alignleft,
+  .single-post .entry-content figure.alignright {
+    float: none;
+  }
+}
+@media screen and (max-width: 400px) {
+  .single-post .entry-content .wp-caption-text {
+    font-size: 0.9em;
+  }
+  .single-post .entry-content ol,
+  .single-post .entry-content ul {
+    padding-left: 20px;
+  }
+}
+
+a:hover {
+  color: #2362f6;
+}
